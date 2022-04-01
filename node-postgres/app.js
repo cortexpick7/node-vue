@@ -5,7 +5,7 @@ const port = 5050;
 app.use(express.json());
 
 app.listen(port, () => {
-  console.log(`Ty petuh na porte: ${port}` );
+  console.log(`Server is running on por: ${port}` );
 });
 
 const api = require('./api');
